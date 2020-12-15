@@ -16,7 +16,7 @@ export default function SearchMovies() {
             <Row>
                 <Col span={12} offset={6}>
                     <Search
-                        placeholder="Movies ...."
+                        placeholder="Type the Movies ....."
                         onSearch={val => searchFilm(val)}
                         enterButton 
                     />
